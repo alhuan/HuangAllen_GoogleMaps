@@ -27,9 +27,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
+            android:layout_weight="0.45"
             android:onClick="trackMyLocation"
-            android:text="Trk"
-            android:layout_weight="0.45" />
+            android:text="Trk" />
 
         <Button
             android:id="@+id/button_Clear"
@@ -37,7 +37,7 @@
             android:layout_width="129dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
-            android:onClick="clearMarkers"
+            android:onClick="clear"
             android:text="Clr" />
 
     </LinearLayout>
